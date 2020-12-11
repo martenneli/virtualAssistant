@@ -56,7 +56,8 @@ def start_cmd():
         talk(pyjokes.get_joke())
     elif 'am i ugly' in cmd:
         talk('yes you are sorry this is the truth')   
-         
+    elif '' in cmd:
+        talk('i searched the web and the result is YAS')        
     else:
         talk('Please say the cmd again.')
 
