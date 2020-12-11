@@ -54,6 +54,9 @@ def start_cmd():
         talk('I am in a relationship with bassim my creator')    
     elif 'give me a joke' in cmd:
         talk(pyjokes.get_joke())
+    elif 'am i ugly' in cmd:
+        talk('yes you are sorry this is the truth')   
+         
     else:
         talk('Please say the cmd again.')
 
