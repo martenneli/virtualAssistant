@@ -28,8 +28,8 @@ def start_cmd():
       cmd = listener.recognize_google(voice)
       cmd = cmd.lower()
      
-      if 'alexa' in cmd:
-        cmd = cmd.replace('alexa', '')
+      if 'zena' in cmd:
+        cmd = cmd.replace('zena', '')
         print(cmd)
 
   except:
